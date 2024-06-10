@@ -113,6 +113,11 @@ FIELDS_V4 = {
         measurements=ALL_MEASUREMENTS,
         type=TYPE_SOLAR,
     ),
+    "evapotranspiration": FieldDefinition(
+        max_timestep=ONE_DAY,
+        measurements=ALL_MEASUREMENTS,
+        type=TYPE_SOLAR,
+    ),
     "visibility": FieldDefinition(
         max_timestep=ONE_DAY,
         measurements=ALL_MEASUREMENTS,
