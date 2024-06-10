@@ -65,6 +65,7 @@ REALTIME_FIELDS_GREATER_THAN_MAX = [
 CORE_FIELDS = [
     "temperature",
     "temperatureApparent",
+    "evapotranspiration",
     "dewPoint",
     "humidity",
     "windSpeed",
